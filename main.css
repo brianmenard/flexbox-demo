@@ -1,20 +1,19 @@
-body{
-    margin: 0;
+
+.flex_container{
+    background-color: #5E96D5;
+    height: 100px;
+    display: flex;
+    padding: 15px;
 }
 
-
-#flex_container1{
-    background-color: gray;
-    height: 600px;
-    width: 100vw;
-    display: flex;
+#row_space-around{
     flex-direction: row;
     justify-content: space-around;
 }
 
 .flex_item{
-    background-color: red;
+    background-color: #86B3E6;
     color: white;
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
