@@ -1,7 +1,7 @@
 
 .flex_container{
     background-color: #5E96D5;
-    height: 100px;
+    height: 110px;
     display: flex;
     padding: 15px;
 }
@@ -11,9 +11,20 @@
     justify-content: space-around;
 }
 
+#row-reverse_space-around{
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#row_flex-end{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 .flex_item{
     background-color: #86B3E6;
     color: white;
     height: 100px;
     width: 100px;
+    margin: 5px;
 }
